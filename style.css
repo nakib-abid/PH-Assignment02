@@ -32,7 +32,7 @@ body {
 /* header area */
 
 .header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.03) 100%);
 }
 
 .navbar {
@@ -67,4 +67,118 @@ body {
     margin-left: -20px;
     border-radius: 46px;
     background: rgb(230, 83, 60);
+}
+
+/* banner area */
+
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.banner-text {
+    width: 550px;
+    height: 300px;
+}
+
+.banner-text > h1 {
+    font-size: 5rem;
+}
+.banner-text > p {
+    margin-top: 20px;
+}
+
+.shape {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+    font-size: 8rem;
+}
+
+.banner-btn {
+    gap: 20px;
+    
+}
+
+.banner-btn > button {
+    width: 230px;
+    height: 60px;
+    padding: 15px 40px;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+.join-club {
+    background-color: rgb(230, 83, 60);
+    border: rgb(230, 83, 60);
+    font-size: 1.25rem;
+}
+
+.download-app {
+    background-color: #00000031;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    font-size: 1.25rem;
+}
+
+.banner-img {
+    background-image: url(./images/Images2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 620px;
+    position: relative;
+}
+
+.banner-img-card1 {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(9px);
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 270px;
+    
+}
+
+.banner-img-card1 > h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-left: -45px;
+}
+
+.banner-img-card2 {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(9px);
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 460px;
+    margin-left: -100px;
+}
+
+.img-card-text > h4 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.red-circle {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
 }
