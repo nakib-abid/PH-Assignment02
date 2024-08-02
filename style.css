@@ -35,8 +35,7 @@ body {
   background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
-    rgba(119, 119, 119, 0.03) 100%
-  );
+    rgba(119, 119, 119, 0.03) 100% );
 }
 
 .navbar {
@@ -332,7 +331,6 @@ td {
 .form-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 50px);
   gap: 10px;
   margin-top: 40px;
 }
@@ -410,8 +408,6 @@ select {
 }
 
 .team-content > img {
-  width: 450px;
-  height: 320px;
   border-radius: 20px;
 }
 
@@ -511,8 +507,8 @@ footer {
   }
 
   .banner-btn > button {
-    width: 160px;
-    height: 60px;
+    width: 150px;
+    height: 50px;
     padding: 10px 20px;
     border-radius: 40px;
     margin-top: 50px;
@@ -536,7 +532,7 @@ footer {
   }
 
   .banner-img-card1 {
-    width: 150px;
+    width: 130px;
     height: 80px;
     margin-top: 60px;
     margin-left: 185px;
@@ -554,10 +550,10 @@ footer {
     margin-top: 3px;
   }
   .banner-img-card2 {
-    width: 150px;
+    width: 130px;
     height: 80px;
     margin-top: 270px;
-    margin-left: -10px;
+    margin-left: 10px;
   }
 
   .img-card-text > h4 {
@@ -590,8 +586,8 @@ footer {
   }
 
   .run-text {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
   }
   .run-text > h3 {
     font-size: 2rem;
@@ -599,12 +595,13 @@ footer {
 
   .run-img > img {
     margin-top: 100px;
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 180px;
+    margin-top: 150px;
   }
 
   .join-now {
-    margin-top: -20px;
+    margin-top: -180px;
   }
 
   /* BMI calculator */
@@ -627,14 +624,9 @@ footer {
     margin-top: 30px;
   }
 
-  .form-container {
-    width: 360px;
-    height: 200px;
-  }
-
   .form-input > input,
   select {
-    width: 180px;
+    width: 140px;
     height: 50px;
   }
 
@@ -645,8 +637,8 @@ footer {
   }
 
   .team-content > img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
   }
 
   .team > h3 {
@@ -682,6 +674,6 @@ footer {
   }
 
   .footer-content1 > p {
-    width: 300px;
+    width: 295px;
   }
 }
