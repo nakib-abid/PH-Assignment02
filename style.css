@@ -409,6 +409,8 @@ select {
 
 .team-content > img {
   border-radius: 20px;
+  width: 450px;
+  height: 330px;
 }
 
 /* footer area */
