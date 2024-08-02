@@ -288,6 +288,77 @@ body {
     margin-bottom: 30px;
 }
 
+/* calculator section */
+
+.calculator {
+    background-color: rgb(34, 34, 34);;
+}
+
+.calculator-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    justify-content: space-between;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.chart > h4 {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.table, tr, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    border-collapse: collapse;
+    padding: 20px;
+    
+}
+
+.calculate > h4 {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.calculate > p {
+    margin: 30px 0px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(3, 50px);
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.form-input > input, select {
+    width: 380px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+
+.Calculate {
+    width: 230px;
+    height: 60px;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    margin-top: 30px;
+}
+
 /* responsive design for mobile */
 
 @media screen and (max-width: 576px) {
@@ -425,7 +496,29 @@ body {
 
     .bmi-div > h3 {
         font-size: 2rem;
+    }
 
-}
+    /* calculator section */
+
+    .calculator-container {
+        flex-direction: column;
+    }
+
+    .calculate {
+        margin-top: 30px;
+    }
+
+    .form-container {
+        width: 360px;
+        height: 200px;
+        
+    }
+
+    .form-input > input, select {
+        width: 180px;
+        height: 50px;
+    }
+
+    
 
 }
