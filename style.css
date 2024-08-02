@@ -482,10 +482,6 @@ footer {
 
 @media screen and (max-width: 576px) {
 
-  body {
-    border: 2px solid red;
-  }
-
   /* header {
     width: 425px;
   }
