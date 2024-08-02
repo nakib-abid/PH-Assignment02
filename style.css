@@ -359,6 +359,59 @@ body {
     margin-top: 30px;
 }
 
+/* Team section */
+
+.team {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.team > h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.team > p {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.team-container {
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.team-content {
+    position: relative;
+}
+
+.team-text {
+    position: absolute;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -60px;
+}
+
+.team-text > h5 {
+    font-size: 1.2rem;
+}
+
+.team-content > img {
+    width: 450px;
+    height: 320px;
+    border-radius: 20px;
+}
+
 /* responsive design for mobile */
 
 @media screen and (max-width: 576px) {
@@ -519,6 +572,36 @@ body {
         height: 50px;
     }
 
-    
+    /* team section */
+
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+
+    .team-content > img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .team > h3 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 900;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .team > p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .team-text {
+        position: absolute;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: -60px;
+    }
+
 
 }
